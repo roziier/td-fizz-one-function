@@ -1,0 +1,28 @@
+{
+  "name": "td-fizz-one-function",
+  "version": "1.0.0",
+  "description": "td-fizz-one-function",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roziier/td-fizz-one-function.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roziier/td-fizz-one-function/issues"
+  },
+  "homepage": "https://github.com/roziier/td-fizz-one-function#readme",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
