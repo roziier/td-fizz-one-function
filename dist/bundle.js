@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 const fizzBuzz = (val1, val2) => {
   let numFromTo = (0,_myfunctions_myrange__WEBPACK_IMPORTED_MODULE_0__.default)(val1, val2);
   //   multipleOf 7 & 11
-  //   doubleMultipleOf(numFromTo, 7, 11, "FooBoo");
+  (0,_myfunctions_doubleMultipleOf__WEBPACK_IMPORTED_MODULE_2__.default)(numFromTo, 7, 11, "FooBoo");
   //   multipleOf 3 & 5
   (0,_myfunctions_doubleMultipleOf__WEBPACK_IMPORTED_MODULE_2__.default)(numFromTo, 3, 5, "Fizzbuzz");
   //   multipleOf 3
@@ -33,21 +33,21 @@ const fizzBuzz = (val1, val2) => {
   //   multipleOf 5
   (0,_myfunctions_multipleof__WEBPACK_IMPORTED_MODULE_1__.default)(numFromTo, 5, "Buzz");
   //   multipleOf 7
-  //   multipleOf(numFromTo, 7, "Foo");
+  (0,_myfunctions_multipleof__WEBPACK_IMPORTED_MODULE_1__.default)(numFromTo, 7, "Foo");
   //   multipleOf 11
-  //   multipleOf(numFromTo, 11, "Boo");
+  (0,_myfunctions_multipleof__WEBPACK_IMPORTED_MODULE_1__.default)(numFromTo, 11, "Boo");
   //   add small and big
-  //   smallBig(numFromTo, 16, 95, "Small", "Big");
+  (0,_myfunctions_smallBig__WEBPACK_IMPORTED_MODULE_3__.default)(numFromTo, 16, 95, "Small", "Big");
   //   switch multiple of 3 with multiple of 5
-  //   switchFB(numFromTo, "Buzz", "Fizz");
+  (0,_myfunctions_switchFB__WEBPACK_IMPORTED_MODULE_4__.default)(numFromTo, "Buzz", "Fizz");
   //   switch multiple of 3 and multiple of 5
-  //   ftw(numFromTo, "FTW");
+  (0,_myfunctions_ftw__WEBPACK_IMPORTED_MODULE_5__.default)(numFromTo, "FTW");
   //   switch multiple of 3 or multiple of 5
-  //   ororor(numFromTo, "GG");
+  (0,_myfunctions_ororor__WEBPACK_IMPORTED_MODULE_6__.default)(numFromTo, "GG");
   return numFromTo;
 };
 
-console.log(fizzBuzz(21, 50));
+console.log(fizzBuzz(1, 100));
 module.exports = fizzBuzz;
 
 
