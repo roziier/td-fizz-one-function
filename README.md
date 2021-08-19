@@ -2,7 +2,7 @@
 
 ### Step 1
 
-##### Write a program that returns array of numbers from 1 to 100, while multiples of three return "Fizz" instead of the number, multiples of five return "Buzz". Multiples of both three and five return "FizzBuzz".
+Write a program that returns array of numbers from 1 to 100, while multiples of three return "Fizz" instead of the number, multiples of five return "Buzz". Multiples of both three and five return "FizzBuzz".
 
 ### Step 2
 
@@ -23,3 +23,5 @@
 ### Step 6
 
 ##### Add new rule for "multiples of 3 and 5" return "FTW", and for "multiples of 3 or 5" return "GG"
+
+Every step was tested with Jest
