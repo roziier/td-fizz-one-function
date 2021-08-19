@@ -107,4 +107,39 @@ const fizzBuzz = require("../index");
 //   expect(fizzBuzz(1, 100)).toEqual(array);
 // });
 
-// STEP 3
+// STEP 2
+test("step 2", () => {
+  const array = [
+    "21-Fizz",
+    22,
+    23,
+    "24-Fizz",
+    "25-Buzz",
+    26,
+    "27-Fizz",
+    28,
+    29,
+    "30-Fizzbuzz",
+    31,
+    32,
+    "33-Fizz",
+    34,
+    "35-Buzz",
+    "36-Fizz",
+    37,
+    38,
+    "39-Fizz",
+    "40-Buzz",
+    41,
+    "42-Fizz",
+    43,
+    44,
+    "45-Fizzbuzz",
+    46,
+    47,
+    "48-Fizz",
+    49,
+    "50-Buzz",
+  ];
+  expect(fizzBuzz(21, 50)).toEqual(array);
+});

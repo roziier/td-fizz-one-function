@@ -32,5 +32,5 @@ const fizzBuzz = (val1, val2) => {
   return numFromTo;
 };
 
-console.log(fizzBuzz(1, 100));
+console.log(fizzBuzz(21, 50));
 module.exports = fizzBuzz;
