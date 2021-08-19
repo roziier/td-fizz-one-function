@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/roziier/td-fizz-one-function#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
     "css-loader": "^6.2.0",
+    "jest": "^27.0.6",
     "sass": "^1.38.0",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
